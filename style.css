@@ -57,54 +57,14 @@ p, h1 {
 .card-header {
   border-bottom: solid 1px #405265;
 }
+.card-header:hover {
+  background-color: #22374b;
+}
 .card-header .acc-head {
   text-align: left;
   font-size: 22px;
   line-height: 28px;
   cursor: pointer;
-}
-
-.collapse:not(.show) {
-  width: 100%;
-}
-
-#accordeon {
-  margin-top: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: #142536;
-  color: #fff;
-  max-width: 1300px;
-}
-#accordeon a {
-  color: #5a88c1;
-  text-decoration: none;
-}
-#accordeon .acc-head {
-  text-align: left;
-  font-size: 22px;
-  line-height: 28px;
-  cursor: pointer;
-}
-#accordeon .arrow_show {
-  margin-left: 15px;
-}
-#accordeon .acc-body {
-  display: none;
-}
-#accordeon .acc-body_desc {
-  font-size: 16px;
-  line-height: 24px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 30px 45px;
-}
-#accordeon .acc-body_desc p {
-  max-width: 693px;
-  margin: 0 118px 0 0;
-}
-
-.active {
-  transform: rotate(180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
